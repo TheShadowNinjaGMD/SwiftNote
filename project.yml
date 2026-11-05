@@ -1,0 +1,18 @@
+# Optional: regenerate the Xcode project with XcodeGen (brew install xcodegen && xcodegen)
+name: SwiftNote
+options:
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  SwiftNote:
+    type: application
+    platform: macOS
+    sources: [SwiftNote]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.anaypatro.SwiftNote
+        SWIFT_VERSION: "5.0"
+        INFOPLIST_FILE: SwiftNote/Info.plist
+        CODE_SIGN_ENTITLEMENTS: SwiftNote/SwiftNote.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_IDENTITY: "-"
