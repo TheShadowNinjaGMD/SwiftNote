@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F600000000000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000000C /* Assets.xcassets */; };
+		B20000000000000000000001 /* AdvancedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* AdvancedSettings.swift */; };
+		B20000000000000000000002 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppController.swift */; };
+		B20000000000000000000003 /* Dictation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* Dictation.swift */; };
+		B20000000000000000000004 /* Editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* Editor.swift */; };
+		B20000000000000000000005 /* Glass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* Glass.swift */; };
+		B20000000000000000000006 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* HelpView.swift */; };
+		B20000000000000000000007 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* MainView.swift */; };
+		B20000000000000000000008 /* ManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* ManagerView.swift */; };
+		B20000000000000000000009 /* Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* Managers.swift */; };
+		B2000000000000000000000A /* MenuIconPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* MenuIconPicker.swift */; };
+		B2000000000000000000000B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* Models.swift */; };
+		B2000000000000000000000C /* NoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* NoteStore.swift */; };
+		B2000000000000000000000D /* NotesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* NotesViews.swift */; };
+		B2000000000000000000000E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* Onboarding.swift */; };
+		B2000000000000000000000F /* QuickSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* QuickSettings.swift */; };
+		B20000000000000000000010 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* Settings.swift */; };
+		B20000000000000000000011 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* Storage.swift */; };
+		B20000000000000000000012 /* SwiftNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* SwiftNoteApp.swift */; };
+		B20000000000000000000013 /* UIParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* UIParts.swift */; };
+		B20000000000000000000014 /* Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* Updates.swift */; };
+		C10000000000000000000001 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = C10000000000000000000003 /* Sparkle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D4E5F600000000000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000000B /* SwiftNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftNote.entitlements; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000000D /* SwiftNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000001 /* AdvancedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettings.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* Dictation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictation.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* Editor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* Glass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glass.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* ManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* Managers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managers.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* MenuIconPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIconPicker.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* NoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStore.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* NotesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViews.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* QuickSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSettings.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* SwiftNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* UIParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIParts.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* Updates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updates.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4E5F6000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000001 /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D4E5F6000000000002 = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000003 /* SwiftNote */,
+				A1B2C3D4E5F6000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000003 /* SwiftNote */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* AdvancedSettings.swift */,
+				B10000000000000000000002 /* AppController.swift */,
+				B10000000000000000000003 /* Dictation.swift */,
+				B10000000000000000000004 /* Editor.swift */,
+				B10000000000000000000005 /* Glass.swift */,
+				B10000000000000000000006 /* HelpView.swift */,
+				B10000000000000000000007 /* MainView.swift */,
+				B10000000000000000000008 /* ManagerView.swift */,
+				B10000000000000000000009 /* Managers.swift */,
+				B1000000000000000000000A /* MenuIconPicker.swift */,
+				B1000000000000000000000B /* Models.swift */,
+				B1000000000000000000000C /* NoteStore.swift */,
+				B1000000000000000000000D /* NotesViews.swift */,
+				B1000000000000000000000E /* Onboarding.swift */,
+				B1000000000000000000000F /* QuickSettings.swift */,
+				B10000000000000000000010 /* Settings.swift */,
+				B10000000000000000000011 /* Storage.swift */,
+				B10000000000000000000012 /* SwiftNoteApp.swift */,
+				B10000000000000000000013 /* UIParts.swift */,
+				B10000000000000000000014 /* Updates.swift */,
+				A1B2C3D4E5F600000000000C /* Assets.xcassets */,
+				A1B2C3D4E5F600000000000A /* Info.plist */,
+				A1B2C3D4E5F600000000000B /* SwiftNote.entitlements */,
+			);
+			path = SwiftNote;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600000000000D /* SwiftNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D4E5F6000000000005 /* SwiftNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F6000000000011 /* Build configuration list for PBXNativeTarget "SwiftNote" */;
+			buildPhases = (
+				A1B2C3D4E5F6000000000006 /* Sources */,
+				A1B2C3D4E5F6000000000007 /* Frameworks */,
+				A1B2C3D4E5F6000000000008 /* Resources */,
+				C10000000000000000000006 /* Embed Sparkle */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNote;
+			packageProductDependencies = (
+				C10000000000000000000003 /* Sparkle */,
+			);
+			productName = SwiftNote;
+			productReference = A1B2C3D4E5F600000000000D /* SwiftNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D4E5F6000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1B2C3D4E5F6000000000005 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D4E5F6000000000010 /* Build configuration list for PBXProject "SwiftNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D4E5F6000000000002;
+			packageReferences = (
+				C10000000000000000000005 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			productRefGroup = A1B2C3D4E5F6000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D4E5F6000000000005 /* SwiftNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4E5F6000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F600000000000F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C10000000000000000000006 /* Embed Sparkle */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Sparkle";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\nFW_DIR=\"$TARGET_BUILD_DIR/$FRAMEWORKS_FOLDER_PATH\"\nSRC=\"$BUILT_PRODUCTS_DIR/Sparkle.framework\"\nif [ ! -d \"$SRC\" ]; then\n  SRC=\"$(find \"$BUILD_DIR/..\" \"$BUILD_DIR/../../SourcePackages/artifacts\" -name Sparkle.framework -path \"*macos*\" -not -path \"*dSYM*\" 2>/dev/null | head -n 1)\"\nfi\nif [ -z \"$SRC\" ] || [ ! -d \"$SRC\" ]; then\n  echo \"error: Sparkle.framework not found. Did the Sparkle package resolve? (File > Packages > Resolve Package Versions)\"\n  exit 1\nfi\nmkdir -p \"$FW_DIR\"\nrsync -a --delete \"$SRC\" \"$FW_DIR/\"\nIDENTITY=\"${EXPANDED_CODE_SIGN_IDENTITY:--}\"\n[ -z \"$IDENTITY\" ] && IDENTITY=\"-\"\n/usr/bin/codesign --force --deep --options runtime --sign \"$IDENTITY\" \"$FW_DIR/Sparkle.framework\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4E5F6000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20000000000000000000014 /* Updates.swift in Sources */,
+				B20000000000000000000001 /* AdvancedSettings.swift in Sources */,
+				B20000000000000000000002 /* AppController.swift in Sources */,
+				B20000000000000000000003 /* Dictation.swift in Sources */,
+				B20000000000000000000004 /* Editor.swift in Sources */,
+				B20000000000000000000005 /* Glass.swift in Sources */,
+				B20000000000000000000006 /* HelpView.swift in Sources */,
+				B20000000000000000000007 /* MainView.swift in Sources */,
+				B20000000000000000000008 /* ManagerView.swift in Sources */,
+				B20000000000000000000009 /* Managers.swift in Sources */,
+				B2000000000000000000000A /* MenuIconPicker.swift in Sources */,
+				B2000000000000000000000B /* Models.swift in Sources */,
+				B2000000000000000000000C /* NoteStore.swift in Sources */,
+				B2000000000000000000000D /* NotesViews.swift in Sources */,
+				B2000000000000000000000E /* Onboarding.swift in Sources */,
+				B2000000000000000000000F /* QuickSettings.swift in Sources */,
+				B20000000000000000000010 /* Settings.swift in Sources */,
+				B20000000000000000000011 /* Storage.swift in Sources */,
+				B20000000000000000000012 /* SwiftNoteApp.swift in Sources */,
+				B20000000000000000000013 /* UIParts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4E5F6000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F6000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F6000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftNote/SwiftNote.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaypatro.SwiftNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F6000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftNote/SwiftNote.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaypatro.SwiftNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4E5F6000000000010 /* Build configuration list for PBXProject "SwiftNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F6000000000012 /* Debug */,
+				A1B2C3D4E5F6000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D4E5F6000000000011 /* Build configuration list for PBXNativeTarget "SwiftNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F6000000000014 /* Debug */,
+				A1B2C3D4E5F6000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C10000000000000000000005 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C10000000000000000000003 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C10000000000000000000005 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A1B2C3D4E5F6000000000001 /* Project object */;
+}
