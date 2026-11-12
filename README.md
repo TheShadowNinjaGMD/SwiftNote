@@ -37,10 +37,14 @@
 
 Requires macOS 14 or later.
 
+## Websites
+[Github Pages,](https://theshadowninjagmd.github.io/SwiftNote/)
+[Main](https://swiftnote.base44.app)
 ## Your data
 Notes are plain files stored on your Mac:
 - `~/Library/Application Support/SwiftNote/`
 - `~/Desktop/Swiftnote` (mirror)
+
 
 ## Disclaimer
 
@@ -56,3 +60,4 @@ We value your privacy. This application **does not collect, track, or transmit a
 [Open an issue on GitHub](https://github.com/TheShadowNinjaGMD/SwiftNote/issues)
 
 Want to build it yourself? See [BUILDING.md](BUILDING.md).
+
