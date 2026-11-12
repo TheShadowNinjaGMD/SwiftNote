@@ -62,20 +62,45 @@ else
   git commit -q -m "${COMMIT_MSG:-SwiftNote}"
 fi
 
+
 # 5. GitHub repo + push
 USER_NAME="$(gh api user --jq .login)"
+TARGET="$USER_NAME/$NAME"
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+
+# Push, merging in whatever is already on GitHub if the remote has history we don't (never force-pushes).
+push_main() {
+  if git push -u origin "$BRANCH" 2>/dev/null; then return 0; fi
+  say "GitHub already has commits for this repo. Merging them in (your local files win conflicts)…"
+  git fetch -q origin
+  if git show-ref --verify --quiet "refs/remotes/origin/$BRANCH"; then
+    git pull --no-rebase --allow-unrelated-histories -X ours --no-edit origin "$BRANCH"
+  fi
+  git push -u origin "$BRANCH"
+}
+
+# If an old/wrong 'origin' exists (e.g. a repo that was never created), drop it.
 if git remote get-url origin >/dev/null 2>&1; then
-  say "Remote 'origin' already set, pushing"
-  git push -u origin main
-elif gh repo view "$USER_NAME/$NAME" >/dev/null 2>&1; then
-  say "Repo $USER_NAME/$NAME already exists, connecting to it"
-  git remote add origin "https://github.com/$USER_NAME/$NAME.git"
-  git push -u origin main
+  CURRENT="$(git remote get-url origin | sed -E 's#^(https://github.com/|git@github.com:)##; s#\.git/?$##')"
+  if ! gh repo view "$CURRENT" >/dev/null 2>&1; then
+    say "Remote '$CURRENT' doesn't exist on GitHub (or isn't yours). Replacing it."
+    git remote remove origin
+  fi
+fi
+
+if git remote get-url origin >/dev/null 2>&1; then
+  say "Pushing to $(git remote get-url origin)"
+  push_main
+elif gh repo view "$TARGET" >/dev/null 2>&1; then
+  say "Repo $TARGET already exists, connecting to it"
+  git remote add origin "https://github.com/$TARGET.git"
+  push_main
 else
-  say "Creating $USER_NAME/$NAME ($VIS)"
-  gh repo create "$USER_NAME/$NAME" $VIS --source=. --remote=origin --push \
+  say "Creating $TARGET ($VIS)"
+  gh repo create "$TARGET" $VIS --source=. --remote=origin --push \
     --description "A quick note-taking app that lives in your macOS menu bar"
 fi
+NAME="${TARGET#*/}"
 
 # 6. Optional release with the DMG
 if [ "$RELEASE" -eq 1 ]; then
