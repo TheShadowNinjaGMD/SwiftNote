@@ -2,29 +2,53 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key><string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
-	<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
-	<key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
-	<key>CFBundleDisplayName</key><string>SwiftNote</string>
-	<key>CFBundlePackageType</key><string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
-	<key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
-	<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>LSApplicationCategoryType</key><string>public.app-category.productivity</string>
-	<key>LSMinimumSystemVersion</key><string>$(MACOSX_DEPLOYMENT_TARGET)</string>
-	<key>LSUIElement</key><true/>
-	<key>NSHumanReadableCopyright</key><string>Made by Anay Patro</string>
-	<key>NSMicrophoneUsageDescription</key><string>SwiftNote uses the microphone so you can dictate notes.</string>
-	<key>NSSpeechRecognitionUsageDescription</key><string>SwiftNote transcribes your speech into text when you dictate.</string>
-	<key>NSCalendarsFullAccessUsageDescription</key><string>SwiftNote adds your notes to Calendar as events when you ask it to.</string>
-	<key>NSRemindersFullAccessUsageDescription</key><string>SwiftNote adds your notes to Reminders when you ask it to.</string>
-	<key>NSCalendarsUsageDescription</key><string>SwiftNote adds your notes to Calendar as events when you ask it to.</string>
-	<key>NSRemindersUsageDescription</key><string>SwiftNote adds your notes to Reminders when you ask it to.</string>
-	<key>NSDesktopFolderUsageDescription</key><string>SwiftNote keeps a backup folder on your Desktop (it syncs with iCloud if Desktop &amp; Documents is on).</string>
-	<key>SUFeedURL</key><string>https://raw.githubusercontent.com/TheShadowNinjaGMD/SwiftNote/main/docs/appcast.xml</string>
-	<key>SUPublicEDKey</key><string>REPLACE_WITH_YOUR_PUBLIC_ED_KEY</string>
-	<key>SUEnableAutomaticChecks</key><true/>
-	<key>SUScheduledCheckInterval</key><integer>86400</integer>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>SwiftNote</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>SwiftNote adds your notes to Calendar as events when you ask it to.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>SwiftNote adds your notes to Calendar as events when you ask it to.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>SwiftNote keeps a backup folder on your Desktop (it syncs with iCloud if Desktop &amp; Documents is on).</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Made by Anay Patro</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>SwiftNote uses the microphone so you can dictate notes.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>SwiftNote adds your notes to Reminders when you ask it to.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>SwiftNote adds your notes to Reminders when you ask it to.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>SwiftNote transcribes your speech into text when you dictate.</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/TheShadowNinjaGMD/SwiftNote/main/docs/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>v8QtgU6qJWsiZLyNnxqrUpda4N9N65FZ99JojMNhnY4=</string>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
 </dict>
 </plist>
