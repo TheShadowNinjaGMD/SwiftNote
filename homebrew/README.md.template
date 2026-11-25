@@ -1,0 +1,17 @@
+# Homebrew tap for SwiftNote
+
+[SwiftNote](https://github.com/@REPO@) is a quick-note app that lives in your Mac's menu bar.
+
+```sh
+brew tap @OWNER@/swiftnote
+brew install --cask swiftnote
+```
+
+Or in one line, without tapping first:
+
+```sh
+brew install --cask @OWNER@/swiftnote/swiftnote
+```
+
+Update with `brew upgrade --cask swiftnote` (SwiftNote also updates itself). Remove with `brew uninstall --cask swiftnote`.
+Your notes are never deleted by uninstalling.
