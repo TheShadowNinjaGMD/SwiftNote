@@ -1,0 +1,8 @@
+.DS_Store
+build/
+dist/
+DerivedData/
+build.log
+.sparkle/
+xcuserdata/
+*.xcuserstate
