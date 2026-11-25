@@ -49,8 +49,7 @@
 - macOS 14 (Sonoma) or later
 
 ## Installation
-
-### Option 1: Homebrew (recommended)
+### <img src="./docs/homebrew-mug.svg" alt="Homebrew" width="20" height="20" /> Option 1: Homebrew (recommended)
 
 [Homebrew](https://brew.sh) is the package manager for macOS. If you already use it, this is the quickest way to install and update SwiftNote. Open **Terminal** and run the following. 
 
